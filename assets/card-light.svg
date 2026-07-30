@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" width="900" height="610">
+  <style>
+    text { font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', 'Courier New', monospace; fill: #0f172a; }
+    .name { font-size: 30px; font-weight: 700; }
+    .tag  { font-size: 13px; fill: #475569; }
+    .num  { font-size: 27px; font-weight: 700; }
+    .lbl  { font-size: 12px; fill: #475569; }
+    .hdr  { font-size: 12px; font-weight: 700; fill: #64748b; letter-spacing: 0.12em; }
+    .repo { font-size: 15px; font-weight: 700; }
+    .desc { font-size: 12px; fill: #475569; }
+    .star { font-size: 13px; font-weight: 700; fill: #ca8a04; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="610" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="609" rx="14" fill="none" stroke="#cbd5e1"/>
+  <text class="name" x="44" y="66">Yuanhao Li</text>
+  <text class="tag"  x="44" y="90">@yuanhao · I build agent infrastructure in Rust.</text>
+  <text class="num" x="44" y="150">2.2K</text>
+  <text class="lbl" x="44" y="171">Stars</text>
+  <text class="num" x="244" y="150">27</text>
+  <text class="lbl" x="244" y="171">Repositories</text>
+  <text class="num" x="444" y="150">73</text>
+  <text class="lbl" x="444" y="171">Followers</text>
+  <line x1="44" y1="205" x2="856" y2="205" stroke="#e2e8f0"/>
+  <text class="hdr" x="44" y="238">WHAT I'M BUILDING</text>
+  <text class="repo" x="44" y="278">yoyo-evolve</text>
+  <text class="star" x="856" y="278" text-anchor="end">★ 1.8K</text>
+  <text class="desc" x="44" y="298">A coding agent that evolves its own source, in public</text>
+  <text class="repo" x="44" y="340">yoagent</text>
+  <text class="star" x="856" y="340" text-anchor="end">★ 172</text>
+  <text class="desc" x="44" y="360">The agent loop for Rust — 7 protocols, tools, MCP</text>
+  <text class="repo" x="44" y="402">yopedia</text>
+  <text class="star" x="856" y="402" text-anchor="end">★ 67</text>
+  <text class="desc" x="44" y="422">A wiki for humans and agents to read and write</text>
+  <text class="repo" x="44" y="464">yoclaw</text>
+  <text class="star" x="856" y="464" text-anchor="end">★ 10</text>
+  <text class="desc" x="44" y="484">OpenClaw reborn in Rust — an agent that remembers you</text>
+  <text class="repo" x="44" y="526">gasp</text>
+  <text class="desc" x="44" y="546">Git Agent State Protocol — the repo is the agent</text>
+</svg>

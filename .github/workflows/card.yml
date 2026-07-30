@@ -1,0 +1,39 @@
+name: Refresh profile card
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays, 06:00 UTC
+  workflow_dispatch: # manual trigger
+  push:
+    paths:
+      - scripts/gen_card.py
+      - .github/workflows/card.yml
+
+permissions:
+  contents: write # commits the regenerated SVGs back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # No third-party action runs here on purpose. This workflow has
+      # `contents: write` on the profile repo, and the only code with access to
+      # that is the script in this repo plus GitHub's own actions/checkout.
+      - name: Regenerate card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gen_card.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/; then
+            echo "card unchanged — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git commit -m "chore: refresh profile card"
+          git push
