@@ -29,7 +29,7 @@
   <line x1="44" y1="205" x2="856" y2="205" stroke="#e2e8f0"/>
   <text class="hdr" x="44" y="238">WHAT I'M BUILDING</text>
   <text class="repo" x="44" y="278">yoyo-evolve</text>
-  <text class="star" x="856" y="278" text-anchor="end">★ 1.8K</text>
+  <text class="star" x="856" y="278" text-anchor="end">★ 1.9K</text>
   <text class="desc" x="44" y="298">A coding agent that evolves its own source, in public</text>
   <text class="repo" x="44" y="340">yoagent</text>
   <text class="star" x="856" y="340" text-anchor="end">★ 172</text>
