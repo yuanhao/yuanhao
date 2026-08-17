@@ -24,7 +24,7 @@
   <text class="lbl" x="44" y="171">Stars</text>
   <text class="num" x="244" y="150">28</text>
   <text class="lbl" x="244" y="171">Repositories</text>
-  <text class="num" x="444" y="150">73</text>
+  <text class="num" x="444" y="150">75</text>
   <text class="lbl" x="444" y="171">Followers</text>
   <line x1="44" y1="205" x2="856" y2="205" stroke="#e2e8f0"/>
   <text class="hdr" x="44" y="238">WHAT I'M BUILDING</text>
@@ -32,7 +32,7 @@
   <text class="star" x="856" y="278" text-anchor="end">★ 1.9K</text>
   <text class="desc" x="44" y="298">A coding agent that evolves its own source, in public</text>
   <text class="repo" x="44" y="340">yoagent</text>
-  <text class="star" x="856" y="340" text-anchor="end">★ 173</text>
+  <text class="star" x="856" y="340" text-anchor="end">★ 170</text>
   <text class="desc" x="44" y="360">The agent loop for Rust — 7 protocols, tools, MCP</text>
   <text class="repo" x="44" y="402">yopedia</text>
   <text class="star" x="856" y="402" text-anchor="end">★ 68</text>
