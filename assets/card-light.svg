@@ -24,7 +24,7 @@
   <text class="lbl" x="44" y="171">Stars</text>
   <text class="num" x="244" y="150">28</text>
   <text class="lbl" x="244" y="171">Repositories</text>
-  <text class="num" x="444" y="150">80</text>
+  <text class="num" x="444" y="150">81</text>
   <text class="lbl" x="444" y="171">Followers</text>
   <line x1="44" y1="205" x2="856" y2="205" stroke="#e2e8f0"/>
   <text class="hdr" x="44" y="238">WHAT I'M BUILDING</text>
